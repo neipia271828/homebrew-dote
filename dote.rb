@@ -2,7 +2,7 @@ class Dote < Formula
   desc "dot e command"
   homepage "https://github.com/kmc2400/homebrew-dote"
   url "https://raw.githubusercontent.com/kmc2400/homebrew-dote/main/dote.c"
-  sha256 "PUT_SHA256_OF_DOTE.C_HERE"
+  sha256 "6d6d07a60f2f9144b87630f99ee0bda6c103bd0d9c9d31be42d2fce52b6a1f21"
 
   def install
     system ENV.cc, "dote.c", "-o", "dote"
